@@ -12,7 +12,7 @@
 
 <body>
 <script>
-  /*document.body.style.zoom = "79%";*/
+  document.body.style.zoom = "79%";
 </script>
   <div class="div_gris">
     <div class="div_blanco">
