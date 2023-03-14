@@ -31,7 +31,7 @@
         </div>
         <div class="btn_divs">
           <div class="margin-bootom">
-            <button class="btn_rojo"><a href="asset/Pdf/manual.pdf" download="manual">Manual de Reconocimiento
+            <button class="btn_rojo"><a  href="asset/Pdf/manual.pdf" download="manual">Manual de Reconocimiento
                 Oficial</a></button>
             <button class="btn_azul"><a href="asset/pauta/Receso Temporal.docx" download="manual">Preguntas Frecuentes</a></button>
           </div>
