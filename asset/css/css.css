@@ -99,7 +99,7 @@
 
 }
 
-a {
+.blanco {
     text-decoration: none;
     color: rgb(224, 215, 215);
 }
@@ -275,6 +275,7 @@ select {
     background-attachment: fixed;
   }
   
-  .blanco {
+  .negro {
     color: black;
+   
   }	

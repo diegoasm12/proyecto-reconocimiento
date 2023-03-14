@@ -25,7 +25,7 @@
                     OFICIAL 2023"</h2>
             </div>
             <div class="contenedor2"> <img src="asset/img/Captura.PNG" alt=""></div>
-            <div class="contenedor3"><button class="btn"><a class="blanco" href="cotejo.php">Ver Tipos De Solicitudes</a></button>
+            <div class="contenedor3"><button class="btn"><a class="negro" href="cotejo.php">Ver Tipos De Solicitudes</a></button>
                 <div class="contenedor5">
                     <h2 class="texto_sub">"Importante: Este instructivo es solo una guía, siendo responsabilidad del
                         sostenedor informarse de toda la normativa vigente, así como de las modificaciones que puedan
