@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="cuadro_blanco">
-          <form action="info.php" action="info.php" method="POST" onsubmit="return validaSeleccion(this);>
+          <form action="info.php" action="info.php" method="POST" onsubmit=validaSeleccion();>
             <table width="720" border="0" cellpadding="7">
            
               <tr>
