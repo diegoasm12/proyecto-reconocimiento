@@ -38,23 +38,21 @@
         $sostendor = $_POST['s_sostenedor'];
         $tenencia = $_POST['s_tenencia'];
         $plan = $_POST['s_planprograma'];
-    
-    
-        //si tenencia y plan son 0 entonces cargar  
+
+        //si tenencia y plan son 0 entonces cargar
         if ($tenencia == 0 && $plan == 0) {
             $cadena = $tramite . "-" . $sostendor . ".html";
+            return $cadena;
         }
-        //si tenencia es 0 y plan es distinto de 0 entonces cargar
-        if ($tenencia == 0 && $plan != 0) {
+        else{
             $cadena = $tramite . "-" . $sostendor . "-" . $tenencia . "-" . $plan . ".html";
+            return $cadena;
         }
-        return $cadena;
     }
-    $cadena = crearurl();
    ?>
 
 
-    <iframe class="iframe" src="info/<?php echo $cadena ?>" frameborder="0"></iframe>
+    <iframe class="iframe" src="info/<?php echo  $cadena = crearurl(); ?>" frameborder="0"></iframe>
 
     <div class="div_gris_info">
         <h1 class="h1_centrada">Archivos adjuntos</h1>
