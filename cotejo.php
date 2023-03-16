@@ -38,9 +38,8 @@
           </div>
         </div>
         <div class="cuadro_blanco">
-          <form action="info.php" action="info.php" method="POST" onsubmit=validaSeleccion();>
+          <form action="info.php" action="info.php" method="POST" onsubmit="return validaSeleccion();">
             <table width="720" border="0" cellpadding="7">
-           
               <tr>
                 <td width="180">* Tipo de Tr&aacute;mite: </td>
                 <td><select id='s_tramite' name='s_tramite' tabindex='1' onclick='seleccion();'>
