@@ -14,6 +14,8 @@
 
 <body class="my-background">
     <?php
+    /*
+    $cadena = "";
     $tramite = $_POST['s_tramite'];
     $sostendor = $_POST['s_sostenedor'];
     $tenencia = $_POST['s_tenencia'];
@@ -28,6 +30,27 @@
     if ($tenencia == 0 && $plan != 0) {
         $cadena = $tramite . "-" . $sostendor . "-" . $tenencia . "-" . $plan . ".html";
     }
+    hacer una funcion que reciba los parametros y retorne la cadena
+    */
+    function crearurl(){
+        $cadena = "";
+        $tramite = $_POST['s_tramite'];
+        $sostendor = $_POST['s_sostenedor'];
+        $tenencia = $_POST['s_tenencia'];
+        $plan = $_POST['s_planprograma'];
+    
+    
+        //si tenencia y plan son 0 entonces cargar  
+        if ($tenencia == 0 && $plan == 0) {
+            $cadena = $tramite . "-" . $sostendor . ".html";
+        }
+        //si tenencia es 0 y plan es distinto de 0 entonces cargar
+        if ($tenencia == 0 && $plan != 0) {
+            $cadena = $tramite . "-" . $sostendor . "-" . $tenencia . "-" . $plan . ".html";
+        }
+        return $cadena;
+    }
+    $cadena = crearurl();
    ?>
 
 
