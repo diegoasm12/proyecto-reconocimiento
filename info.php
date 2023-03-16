@@ -19,8 +19,16 @@
     $tenencia = $_POST['s_tenencia'];
     $plan = $_POST['s_planprograma'];
 
-    $cadena = $tramite . "-" . $sostendor . "-" . $tenencia . "-" . $plan . ".html";
-    $cadena2 = "1-1-1-1.html"; ?>
+
+    //si tenencia y plan son 0 entonces cargar  
+    if ($tenencia == 0 && $plan == 0) {
+        $cadena = $tramite . "-" . $sostendor . ".html";
+    }
+    //si tenencia es 0 y plan es distinto de 0 entonces cargar
+    if ($tenencia == 0 && $plan != 0) {
+        $cadena = $tramite . "-" . $sostendor . "-" . $tenencia . "-" . $plan . ".html";
+    }
+   ?>
 
 
     <iframe class="iframe" src="info/<?php echo $cadena ?>" frameborder="0"></iframe>
