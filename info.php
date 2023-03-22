@@ -8,6 +8,7 @@
     <title>Reconocimiento Oficial</title>
     <link rel="stylesheet" href="asset/css/css_info.css">
     <script src="asset/js/scrip.js"></script>
+    <link rel="shortcut icon" href="asset/img/logo-gobierno.png" type="image/x-icon">
 
 
 </head>

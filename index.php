@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reconocimiente Oficial</title>
     <link rel="stylesheet" href="asset/css/css.css">
-   <link rel="stylesheet" href="asset/img/logo-secretaria.jpg">
+    <link rel="shortcut icon" href="asset/img/logo-gobierno.png" type="image/x-icon">
 </head>
 
 <body>
