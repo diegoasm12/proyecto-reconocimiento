@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,24 +14,7 @@
 
 <body class="my-background">
     <?php
-    /*
-    $cadena = "";
-    $tramite = $_POST['s_tramite'];
-    $sostendor = $_POST['s_sostenedor'];
-    $tenencia = $_POST['s_tenencia'];
-    $plan = $_POST['s_planprograma'];
-
-
-    //si tenencia y plan son 0 entonces cargar  
-    if ($tenencia == 0 && $plan == 0) {
-        $cadena = $tramite . "-" . $sostendor . ".html";
-    }
-    //si tenencia es 0 y plan es distinto de 0 entonces cargar
-    if ($tenencia == 0 && $plan != 0) {
-        $cadena = $tramite . "-" . $sostendor . "-" . $tenencia . "-" . $plan . ".html";
-    }
-    hacer una funcion que reciba los parametros y retorne la cadena
-    */
+    /*hacer una funcion que reciba los parametros y retornar la cadena*/
     function crearurl(){
         $cadena = "";
         $tramite = $_POST['s_tramite'];
@@ -51,8 +33,6 @@
         }
     }
    ?>
-
-
     <iframe class="iframe" src="info/<?php echo  $cadena = crearurl(); ?>" frameborder="0"></iframe>
 
     <div class="div_gris_info">
