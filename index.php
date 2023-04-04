@@ -13,9 +13,7 @@
     <div class="div_blanco">
         <div><img class="imagen_edificio" src="asset/img/edificio.PNG" alt=""> </div>
         <div><img class="imagen_secretaria" src="asset/img/logo-secretaria.jpg" alt=""> </div>
-        <div>
-            <h1 class="texto_titulo">Reconocimiento oficial 2023</h1>
-        </div>
+        <h1 class="texto_titulo">Reconocimiento oficial 2023</h1>
         <div class="contenedor1">
             <h2>"INSTRUCTIVO SOBRE PROCEDIMIENTO ADMINISTRATIVO DE SOLICITUDES DE RECONOCIMIENTO OFICIAL 2023"</h2>
         </div>

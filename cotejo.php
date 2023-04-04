@@ -6,16 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reconocimiento Oficial</title>
-  <link rel="stylesheet" href="asset/css/css.css">
+  <link rel="stylesheet" href="asset/css/cotejo.css">
   <script src="asset/js/scrip.js"></script>
   <link rel="shortcut icon" href="asset/img/logo-gobierno.png" type="image/x-icon">
 
 </head>
 
 <body>
-<script>
-  document.body.style.zoom = "79%";
-</script>
+
   <div class="div_gris">
     <div class="div_blanco">
       <div><img class="imagen_edificio" src="asset/img/edificio.PNG" alt=""> </div>
@@ -24,7 +22,7 @@
         <h1 class="texto_titulo">Reconocimiento oficial 2023</h1>
       </div>
       <div class="contenedor1">
-        <h2 class="texto_sub">"INSTRUCTIVO SOBRE PROCEDIMIENTO ADMINISTRATIVO DE SOLICITUDES DE RECONOCIMIENTO OFICIAL
+        <h2>"INSTRUCTIVO SOBRE PROCEDIMIENTO ADMINISTRATIVO DE SOLICITUDES DE RECONOCIMIENTO OFICIAL
           2023"</h2>
       </div>
       <div class="div_gris_formulario">
@@ -32,7 +30,7 @@
           <h3>Buscar Tipo De Solicitudes</h3>
         </div>
         <div class="btn_divs">
-          <div class="margin-bootom">
+          <div>
             <button class="btn_rojo"><a class="blanco" href="asset/Pdf/manual.pdf" download="manual">Manual de Reconocimiento
                 Oficial</a></button>
             <button class="btn_azul"><a class="blanco" href="asset/pauta/Receso Temporal.docx" download="manual">Preguntas Frecuentes</a></button>

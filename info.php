@@ -40,7 +40,7 @@
         <div class="inline">
 
             <button class="boton_descargar_elementos"><a
-                    href="https://secreduc04.cl/recofi2023/formatos/oficio_conductor_solicitudes_con_curso2021.pdf">Oficio
+                    href="asset/Pdf/oficio_conductor.docx">Oficio
                     Conductor</a></button>
             <button class="boton_descargar_elementos"><a
                     href="asset/pauta/solicitud_unica_reconocimiento_oficial (1).xls">Solicitud Unica</a></button>
