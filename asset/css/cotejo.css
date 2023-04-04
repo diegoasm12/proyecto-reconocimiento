@@ -1,0 +1,203 @@
+.div_gris {
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.div_blanco {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+}
+
+.imagen_secretaria {
+    margin-top: -13%;
+    margin-left: 1%;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+
+.imagen_secretaria {
+    margin-top: -12%;
+    margin-left: 1%;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    border-radius: 80px;
+}
+
+.imagen_edificio {
+    margin-top: -1%;
+    width: 100%;
+    height: 200px;
+    
+}
+.texto_titulo {
+    position: fixed;
+    background-color:#0b4582;
+    margin-top: -10%;
+    margin-left: 40%;
+    font-size: 50px;
+    color: azure;
+    border-radius: 10px;
+    
+}
+
+.contenedor1 {
+    background-color: #d3def2;
+    display: flex;
+    justify-content: center;
+    height: 8%;
+    /* mover hacia arriba*/
+    margin-top: -1%;
+   
+    
+  }
+
+.div_gris_formulario {
+    background-color: gray;
+    height: 60%;
+    width: 95%;
+    /*centrar div*/
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 40px;
+}
+.centrado_div_Texto {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 25px;
+}
+.btn_divs {
+    display: inline-block 40%;
+    height: 50px;
+    width: 50px;
+}
+.btn_rojo {
+    box-shadow: 3px 4px 0px 0px #eb3c46;
+    background: linear-gradient(to bottom, #eb3c46 5%, #eb3c46 100%);
+    background-color: #c91808;
+    border-radius: 40px;
+    border: 1px solid #eb3c46;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #eb3c46;
+    text-align: center;
+    min-width: 170px;
+    min-height: 50px;
+    margin: 10px;
+}
+.btn_rojo:hover {
+    background: linear-gradient(to bottom, #eb3c46 5%, #eb3c46 100%);
+    background-color: #eb3c46;
+}
+
+.btn_rojo:active {
+    position: relative;
+    top: 1px;
+}
+
+.btn_azul {
+    box-shadow: 3px 4px 0px 0px #0f69b4;
+    background: linear-gradient(to bottom, #0f69b4 5%, #0f69b4 100%);
+    background-color: #0f69b4(232, 100%, 49%);
+    border-radius: 40px;
+    border: 1px solid #0f69b4;
+    display: inline-block;
+    cursor: pointer;
+    color: #0f69b4;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #0f69b4;
+    text-align: center;
+    min-width: 170px;
+    min-height: 70px;
+    margin: 10px;
+
+
+}
+
+.btn_azul:hover {
+    background: linear-gradient(to bottom, #0f69b4 5%, #0f69b4 100%);
+    background-color: #0f69b4;
+}
+
+.btn_azul:active {
+    position: relative;
+    top: 1px;
+}
+.blanco {
+    text-decoration: none;
+    color: rgb(224, 215, 215);
+}
+.cuadro_blanco {
+    background-color: white;
+    height: 70%;
+    width: 80%;
+    /*centrar div*/
+    margin: auto;
+    margin-top: -3.7%;
+    margin-left: 16%;
+    border-radius: 10px;
+
+}
+.btn_rojo_ver {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c91808 5%, #9c1309 100%);
+    background-color: #c91808;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+    text-align: center;
+    min-width: 150px;
+    min-height: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    color: #333;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;    
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  /* Estilos para los selectores */
+  select {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px; 
+    width: 100%;
+    box-sizing: border-box;
+  }
